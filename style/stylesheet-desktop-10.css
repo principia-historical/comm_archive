@@ -1,0 +1,53 @@
+#status-bar li {
+    width: 60%;
+}
+
+#wrapper {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+button {
+    font-size: 0.9em;
+}
+
+#lvl-info>table {
+    /*width: 45%;*/
+}
+
+
+ul.medium li {
+    max-height: 195px;
+}
+
+ul.level-list li,
+ul.package-list li,
+ul.entity-list li {
+    /*height: 200px;*/
+}
+
+li a.user:hover {
+    text-decoration: underline;
+}
+
+ul.level-list.medium,
+ul.package-list.medium,
+ul.entity-list.medium {
+}
+
+ul.entity-list li.medium {
+    width: 490px;
+    height: 340px;
+}
+ul.entity-list li.medium img.icon {
+    width: 490px;
+    height: 276px;
+}
+
+ul.menu a.btn {
+    padding: 0 10px;
+}
+
+ul.entity-list.mini {
+    overflow-x: hidden;
+}
