@@ -524,27 +524,16 @@ div.descr {
 	overflow-wrap: break-word;
 }
 
-li.comment-entry .admin button {
-}
-
-li.comment-entry .admin button.edit {
-	background: url('http://img.principiagame.com/static/16/edit.png') 0px 0px no-repeat;
-}
-
-li.comment-entry .admin button.edit.editing {
-	opacity: 0.5;
-}
-
 button.fake.loading {
-	background: url('http://img.principiagame.com/static/ajax-loader.gif') 0px 0px no-repeat;
+	background: url('/static/ajax-loader.gif') 0px 0px no-repeat;
 }
 
 .btn_remove.cancel {
-	background: url('http://img.principiagame.com/static/16/cancel.png') 0px 0px no-repeat;
+	background: url('/static/16/cancel.png') 0px 0px no-repeat;
 }
 
 .btn_remove.undo {
-	background: url('http://img.principiagame.com/static/16/undo.png') 0px 0px no-repeat;
+	background: url('/static/16/undo.png') 0px 0px no-repeat;
 }
 
 .play {
@@ -994,7 +983,7 @@ ul.menu form {
 .search {
 	padding: 6px 15px 6px 30px;
 	margin: 3px;
-	background: transparent url('http://img.principiagame.com/static/search.png') no-repeat 8px 6px;
+	background: transparent url('/static/search.png') no-repeat 8px 6px;
 	width: 225px;
 }
 
@@ -1375,134 +1364,6 @@ div.spacer {
 	background-image: -webkit-linear-gradient(top, rgba(238, 234, 234, 0), rgba(238, 234, 234, 1));
 }
 
-div.store {
-	margin: 0 auto;
-	width: 1000px;
-}
-
-div.store .item {
-	position: relative;
-	width: 45%;
-	float: left;
-	display: block;
-	font-size: 1.75em;
-	margin: .5em;
-	border: 1px solid #c8c8c8;
-	border-radius: 3px;
-	background-color: #e8e8e8;
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-position: 50% 50%;
-}
-
-div.store .price {
-	font-size: 0.75em;
-	margin: 0;
-	position:relative;
-	bottom:6px;
-	text-align: right;
-	padding-right: 10px;
-}
-
-div.store .price .old {
-	color: #666;
-}
-
-div.store p.pls_login .price {
-	font-size: 1em;
-}
-
-.price .currency {
-	color: #555;
-}
-
-div.store .pls_login {
-	font-size: 0.7em;
-}
-
-div.store .item p {
-}
-
-div.store .details {
-	margin: 0;
-	text-align: right;
-}
-
-div.store .title {
-	text-align: center;
-	margin: .5em .5em .3em .5em;
-	margin-bottom: 0.3em;
-}
-
-div.store .buy {
-	font-size: 0.9em;
-	font-weight: 800;
-	margin: 0.5em;
-	margin-bottom: 0.3em;
-}
-
-div.store .buy form {
-	display: inline-block;
-}
-
-div.store .buy form button {
-	background: none;
-	border: none;
-	margin: 0;
-	padding: 0;
-	margin-right: .3em;
-	cursor: pointer;
-	color: #1155dd;
-}
-
-div.store .details {
-	font-size: 0.5em;
-	margin: 0;
-	padding: 0;
-	padding-right: 10px;
-}
-
-div.store .item#pc {
-	/*background-image: url('http://img.principiagame.com/static/store-pc.png');*/
-	/*background-image: url('http://img.principiagame.com/full/2881-0.jpg');*/
-}
-
-div.store .item img.main {
-	width: 95%;
-	margin: 0 auto;
-	display: block;
-	/*width: 400px;*/
-}
-
-div.store .item#mobile {
-	float: right;
-	text-align: center;
-}
-
-div.store .item:hover {
-	border: 1px solid #cccccc;
-	background-color: #efefef;
-}
-
-.item .inner-item {
-	position: absolute;
-	bottom: 0;
-	margin-left: 1.5em;
-}
-
-.item#pc .inner-item {
-	margin-left: 0.9em;
-}
-
-.item .inner-item.second {
-	left: 210px;
-}
-
-div.store img.appstore {
-	height: 58px;
-	margin-bottom: 1px;
-}
-
 input.error {
 	border: 1px solid #ee9090;
 	background-color: #fcecec;
@@ -1529,19 +1390,19 @@ form span.error-msg {
 }
 
 .trophee.bdiamond {
-	background-image: url('http://img.principiagame.com/static/icon_diamond.png');
+	background-image: url('/static/icon_diamond.png');
 	background-repeat:no-repeat;
 }
 
 .trophee.gold {
 	color:darkgoldenrod;
-	background-image: url('http://img.principiagame.com/static/icon_gold.png');
+	background-image: url('/static/icon_gold.png');
 	background-repeat:no-repeat;
 }
 
 .trophee.silver {
 	color:#555;
-	background-image: url('http://img.principiagame.com/static/icon_silver.png');
+	background-image: url('/static/icon_silver.png');
 	background-repeat:no-repeat;
 }
 
