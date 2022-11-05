@@ -1698,6 +1698,10 @@ a[href=\/add-video] {
 	display: none;
 }
 
+#filter {
+	display: none;
+}
+
 .exitbutton {
 	padding: 10px;
 	font-weight: bold;
